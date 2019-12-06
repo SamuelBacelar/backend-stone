@@ -15,6 +15,6 @@ docker run -d -p 27017:27107 -v ~/data:/data/db mongo
 
 É necessário baixar todas as dependências do projeto antes de executá-lo. Instale o **npm**, vá até a pasta raiz do projeto e execute `npm install`.
 
-Para executar o projeto, basta rodar o comando `node src/app.js`.
+Para executar o projeto, basta rodar o comando `node app.js`.
 
 O projeto funciona utilizando a porta [http://localhost:3002](http://localhost:3002).
